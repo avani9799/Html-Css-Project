@@ -23,6 +23,8 @@ body {
   margin-left:300px;
 }
 
+
+
 .menu {
   float: right;
   margin-top: 40px;
@@ -42,6 +44,10 @@ nav ul a {
   font-size: 18px;
   color: black;
   font-weight: bold;
+}
+
+a:hover {
+  background-color: #ffff33;
 }
 
 section::after {

@@ -51,6 +51,13 @@
         color: white;
         background-color: #4d4dff;
     }
+
+    button:hover {
+    background-color: black;
+    border-radius:5px;
+    }
+
+
 </style>
 
 <body>
@@ -60,11 +67,11 @@
             <table class="tablecontain">
                 <tr>
                     <td>Username:</td>
-                    <td><input type="text" name="uname" size=30 placeholder="Enter Username" required></td>
+                    <td><input type="text" name="uname" size=30 placeholder="Enter Username" required autofocus></td>
                 </tr>
                 <tr>
                     <td>Password:</td>
-                    <td><input type="password" name="pwd" size=30 placeholder="Enter Password" pattern=".{8,}" required></td>
+                    <td><input type="password" name="pwd" size=30 placeholder="Enter Password" pattern=".{8,}" required ></td>
                 </tr>
                 <tr>
                     <td colspan="2"><button>Submit</button></td>
